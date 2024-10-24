@@ -81,7 +81,7 @@ const Post = ({ post, user }) => {
         ) : (
           <p className="text-gray-700 leading-relaxed">{message}</p>
         )}
-        { (user.name === post.author || user.email === 'sansmarotia@gmail.com') && (
+        { (user.name === post.author || user.email === 'sanskritiagarwal0810@gmail.com') && (
           <div className="mt-4 flex space-x-4">
             {isEditing ? (
               <>
